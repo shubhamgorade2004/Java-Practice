@@ -68,5 +68,17 @@ class Datatypes {
         System.out.println(intvalue1);
         System.out.println(floatvalue1);
 
+        //Narrowing conversion
+        double doublevalue2 = 12.2345;
+        float floatvalue2 = (float) doublevalue2;
+        long longvalue2 = (long) floatvalue2;
+        int intvalue2 = (int) longvalue2;
+
+        System.out.println(doublevalue2);
+        System.out.println(floatvalue2);
+        System.out.println(longvalue2);
+        System.out.println(intvalue2);
+
     }
 }
+
