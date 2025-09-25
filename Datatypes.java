@@ -37,12 +37,36 @@ class Datatypes {
         char hindiChar = 2309;
         System.out.println(hindiChar);
 
-        //hexadecimal number
+        //hexadecimal number or unicode representation
         char heart = '\u2764';
         System.out.println(heart);
 
         //Boolean true, false
         boolean Shubham = true;
         System.out.println(Shubham);
+
+        //implicit conversion, widning conversion, automatic
+        byte bytevalue = 10;
+        short shortvalue = bytevalue;
+        int intvalue = shortvalue;
+        long longvalue = intvalue;
+        float floatvalue = longvalue; //it acepts long due to float stores big number in the power format
+        double doublevalue = floatvalue;
+
+        System.out.println(bytevalue);
+        System.out.println(shortvalue);
+        System.out.println(intvalue);
+        System.out.println(longvalue);
+        System.out.println(floatvalue);
+        System.out.println(doublevalue);
+
+        char charvalue = 'a';
+        int intvalue1 = charvalue;
+        float floatvalue1 = charvalue;
+
+        System.out.println(charvalue);
+        System.out.println(intvalue1);
+        System.out.println(floatvalue1);
+
     }
 }
