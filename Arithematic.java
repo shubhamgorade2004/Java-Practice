@@ -46,5 +46,25 @@ public class Arithematic {
         Y+=11;
         System.out.println(Y);
 
+        //increment and decrement ++ --
+        //postincrement- first use and then increment
+        //preincrement- first increment and then use
+
+        int s = 10;
+        //int r = s++;
+        //System.out.println(r);
+        //System.out.println(s);
+
+        //int t = s++ + s; //(10+11)
+        //System.out.println(t);
+
+        //int u = ++s + s; //(11+11)
+        //System.out.println(u);
+
+        //int v = s + ++s; //s+(++S) = 10+11
+        //System.out.println(v);
+
+        int w = s++ + --s; //(10+10)
+        System.out.println(w);
     }
 }
